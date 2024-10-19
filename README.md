@@ -24,14 +24,14 @@ By default it was set on `bash` shell. Check by
 echo $0
 ```
 
-It will return `bash`. Now type
-`cssh`
-Password:
-
-Changing the new shell for username
-Enter the new value, or press ENTER for default
-Login Shell [/bin/bash]: /bin/zsh
-
+It will return `bash`. Now type & enter the root password.
+```
+chsh
+```
+After seeing Changing the new shell for `username`. Enter the new value, or press ENTER for default
+```
+Login Shell [/bin/bash]:/bin/zsh
+```
 Now do reboot your system manually or from command line
 
 ```
